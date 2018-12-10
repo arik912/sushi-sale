@@ -1,0 +1,60 @@
+/*
+* Third Party
+*/
+@import "../../bower_components/normalize.css/normalize.css";
+
+/*
+* Custom
+*/
+@import "partials/app";
+@import "../slick/slick-theme.css";
+@import "../slick/slick.css";
+body{
+	font-family: 'Open Sans';
+}
+header{
+	margin-top: 10px;
+}
+h2{
+  font-size: 30px;
+  font-family: "Open Sans";
+  color: rgb(2, 2, 2);
+  line-height: 1;
+  text-align: left;
+}
+h1{
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  font-weight: 800;
+
+}
+
+h3{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+
+    opacity: .75;
+    color: black;
+    
+}
+.slick-prev{
+	left:0;
+	z-index: 3;
+}
+.slick-next{
+	left:97%;
+}
